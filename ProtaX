@@ -82,33 +82,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/Fe-Spinning-
 end)
 
 
-local GameTab = Window:NewSection("Games")
-GameTab:CreateButton("Brookhaven", function()
-
-loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-R4D-TROLL-NO-KEY-17625"))()
-
-end)
-
-("Blox fruits [W AZURE]", function()
-
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-getgenv().Team = "Pirates"
-getgenv().FixCrash = false -- Turn it On For Hopping Server, Improve Performance But Silent Aim On Mob And Player
-getgenv().FixCrash2 = false -- Turn it On For Hopping Server, Improve Performance But Will Remove Speed Changer
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-
-end)
-
-
-
-GameTab:CreateButton("Prison Life [TIGER ADMIN]", function()
-
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
-end)
-
-
